@@ -3,7 +3,7 @@
 		[<?=my('nick')?>]님 로그인
 	</div>
 	<div class='logged-in-messages'>
-		<a href="<?=g::memo_new()?>" target="_blank">
+		<a href="<?=url_bbs()?>/memo.php" target="_blank">
 			<img src='<?=$widget_config['url']?>/message2.png'/> 쪽지 확인
 		</a>
 	</div>
